@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chonburi&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Meie+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+svg {
+  width: 70vw;
+  height: 100vh;
+  /* margin-left: 20%; */
+}
+
+.yannieHome {
+  display: flex;
+  /* justify-content: flex-end; */
+}
+
+/* svg > path:hover {
+  animation-duration: 1s;
+  animation-name: envelop;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+@keyframes envelop {
+  from {
+    transform-origin: 0;
+  }
+  to {
+    transform: translateX(100px) translateY(140px);
+  }
+} */
+
+.yannie {
+  /* font-family: "Black Han Sans", sans-serif; */
+  font-family: "Chonburi", cursive;
+  font-weight: 300;
+  font-size: 6vw;
+  margin: 0;
+  position: absolute;
+  top: 60%;
+  left: 55%;
+}
+
+.yeung {
+  margin: 0;
+  font-family: "Meie Script", cursive;
+  font-weight: 300;
+  font-size: 6vw;
+  position: absolute;
+  top: 66%;
+  padding-left: 150px;
+}
+
+.name {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* margin-top: 30%; */
+  position: relative;
+  /* width: 29%; */
+  /* align-items: flex-end; */
+}
+
+.title {
+  position: absolute;
+  top: 55%;
+  left: 180%;
+  width: 280px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.6vw;
+  letter-spacing: 5px;
+}
