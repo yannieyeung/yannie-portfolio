@@ -1,9 +1,9 @@
 import React, { useRef, useState } from "react";
 import About from "./About";
-import home from "../home.module.css";
+import home from "../home.module.scss";
 import Parallax from "parallax-js";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "../App.scss";
+import "./home.scss";
 
 function Home() {
   const homeContainer = useRef(null);
