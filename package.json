@@ -1,6 +1,9 @@
 {
   "name": "yannie-portfolio",
   "version": "0.1.0",
+  "engines": {
+    "node": "14.3.0"
+  },
   "private": true,
   "homepage": "https://yannieyeung.github.io/yannie-portfolio/",
   "dependencies": {
