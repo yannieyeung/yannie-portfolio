@@ -6,6 +6,7 @@
 svg {
   width: 70vw;
   height: 100vh;
+  fill: #353535;
   /* margin-left: 20%; */
 }
 
@@ -38,6 +39,7 @@ svg {
   position: absolute;
   top: 60%;
   left: 55%;
+  /* color: #353535; */
 }
 
 .yeung {
@@ -48,6 +50,7 @@ svg {
   position: absolute;
   top: 66%;
   padding-left: 150px;
+  /* color: #353535; */
 }
 
 .name {
@@ -68,4 +71,5 @@ svg {
   font-family: "Quicksand", sans-serif;
   font-size: 1.6vw;
   letter-spacing: 5px;
+  /* color: #353535; */
 }

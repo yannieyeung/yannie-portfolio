@@ -1,0 +1,76 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+
+.wrapper {
+  background: #1e1e1e;
+  color: white;
+  height: 100vh;
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.email {
+  color: #84cdf4;
+  font-size: 20px;
+}
+
+.linkedin {
+  color: #489ee4;
+  font-size: 20px;
+  transition: 0.25s;
+}
+
+.linkedinWrapper {
+  color: white;
+  text-decoration: none;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  transform: translateY(10px);
+}
+
+.textWrapper {
+  margin-top: 18%;
+}
+
+$colors: (
+  button: #a972cb,
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+.button {
+  background: none;
+  border: 1px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 2em;
+  padding: 0.6em 1.7em;
+  color: var(--color);
+  transition: 0.25s;
+  border-radius: 10px;
+  font-size: 12px;
+  margin-top: 138%;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}

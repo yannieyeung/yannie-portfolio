@@ -45,7 +45,7 @@ function Home() {
         ref={homeContainer}
         style={maskStyle}
       >
-        <div className="homeWrapper">
+        <div className="homeWrapper justThis">
           <div className={home.yannieHome}>
             <div className={home.name}>
               <p className={home.title}>software engineer</p>
@@ -53152,12 +53152,12 @@ function Home() {
         </div>
       </div>
       <div>
-        <Link to={"/about"}>
+        <Link to={"/about"} target="_blank">
           <h3 className="about">About Me</h3>
         </Link>
       </div>
       <div>
-        <Link to={"/portfolios"}>
+        <Link to={"/portfolios"} target="_blank">
           <h3 className="myPortfolio">Portfolio</h3>
         </Link>
       </div>

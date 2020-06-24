@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
+
+.aboutWrapper {
+  background: #1e1e1e;
+  color: white;
+  height: 100vh;
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.yannieYeung {
+  color: #84cdf4;
+  font-size: 20px;
+}
+
+.software {
+  color: #84cdf4;
+}
+
+.function {
+  color: #f9f9b7;
+  font-size: 20px;
+}
+
+.functionWrapper {
+  margin: 0 auto;
+  text-align: left;
+  color: #f4a788;
+}
+
+.textWrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  padding-top: 17%;
+}
+$colors: (
+  button: #a972cb,
+);
+
+@each $button, $color in $colors {
+  .#{$button} {
+    --color: #{$color};
+    --hover: #{adjust-hue($color, 45deg)};
+  }
+}
+
+.button {
+  background: none;
+  border: 2px solid;
+  font: inherit;
+  line-height: 1;
+  margin: 2em;
+  padding: 0.6em 1.7em;
+  color: var(--color);
+  transition: 0.25s;
+  border-radius: 10px;
+
+  &:hover,
+  &:focus {
+    border-color: var(--hover);
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+  }
+}
+
+.button:hover,
+.button:focus {
+  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  transform: translateY(-0.25em);
+}
+
+.functionContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.functionP {
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.closeB {
+  justify-content: center;
+  margin: 0px 42%;
+}
