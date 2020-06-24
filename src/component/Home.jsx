@@ -26598,7 +26598,12 @@ function Home() {
           </div>
         </div>
 
-        <div className="homeWrapper cloneWrapper">
+        <div
+          className="homeWrapper cloneWrapper"
+          style={{
+            clipPath: `polygon(0 0, calc(${state.x} * 1% + ( ${state.y} -50) * 1.2%) 0, calc(${state.x} * 1% + (${state.y} - 50) * -0.1%) 100%, 0 100%`,
+          }}
+        >
           <div className={home.yannieHome}>
             <div className={home.name}>
               <p className={home.title}>software engineer</p>
@@ -26606,7 +26611,7 @@ function Home() {
               <h1 className={home.yeung}>yeung</h1>
             </div>
             <svg
-            className="cloneSvg"
+              className="cloneSvg"
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
