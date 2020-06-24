@@ -5,7 +5,7 @@
     "node": "14.3.0"
   },
   "private": true,
-  "homepage": "https://yannieyeung.github.io/yannie-portfolio/",
+  "homepage": "https://yannieyeung.dev",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
