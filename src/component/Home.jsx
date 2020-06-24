@@ -3,7 +3,7 @@ import About from "./About";
 import home from "../home.module.scss";
 import Parallax from "parallax-js";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
-import "./home.scss";
+import "./home.css";
 
 function Home() {
   const homeContainer = useRef(null);
@@ -26606,6 +26606,7 @@ function Home() {
               <h1 className={home.yeung}>yeung</h1>
             </div>
             <svg
+            className="cloneSvg"
               version="1.1"
               id="Layer_1"
               xmlns="http://www.w3.org/2000/svg"
