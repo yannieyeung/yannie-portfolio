@@ -21,13 +21,14 @@
   display: flex;
   flex-wrap: wrap;
   padding-left: 7%;
-  padding-top: 9%;
+  padding-top: 5%;
 }
 
 .title {
   padding-left: 6%;
   text-decoration: none;
   color: #489ee4;
+  margin-bottom: 1%;
 }
 
 .link {
@@ -41,6 +42,7 @@
   top: 93%;
   background-color: white;
   opacity: 0.2;
+  color: black;
 }
 
 .description:hover {

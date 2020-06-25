@@ -4,6 +4,8 @@ import portfolioDetails from "../../portfolioDetails";
 
 import eachPort from "./eachPort.module.scss";
 
+import Animation from "./Animation";
+
 function EachPortfolio() {
   var allPortfolio = portfolioDetails.portfolioDetails;
   var eachPortfolio = allPortfolio.map((portfolioDetail) => {
@@ -15,6 +17,7 @@ function EachPortfolio() {
             {/* <a href={portfolioDetail.url}>
             <button className={eachPort.button}>Click here</button>
           </a> */}
+            <Animation anim={portfolioDetail.animUrl} />
             <div className={eachPort.description}>
               <p>{portfolioDetail.description}</p>
             </div>
