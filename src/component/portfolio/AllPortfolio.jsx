@@ -1,11 +1,11 @@
 import React from "react";
 // import "./App.css";
 import EachPortfolio from "./EachPortfolio";
+import allPort from "./allPort.module.scss";
 
 function AllPortfolio() {
   return (
-    <div className="all-portfolios-container">
-      <h1>This is about AllPorfolio.jsx</h1>
+    <div className={allPort.allPortfoliosContainer}>
       <EachPortfolio />
     </div>
   );

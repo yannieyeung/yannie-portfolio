@@ -40,6 +40,7 @@ svg {
   top: 60%;
   left: 55%;
   /* color: #353535; */
+  user-select: none;
 }
 
 .yeung {
@@ -51,6 +52,7 @@ svg {
   top: 66%;
   padding-left: 150px;
   /* color: #353535; */
+  user-select: none;
 }
 
 .name {
@@ -72,4 +74,5 @@ svg {
   font-size: 1.6vw;
   letter-spacing: 5px;
   /* color: #353535; */
+  user-select: none;
 }

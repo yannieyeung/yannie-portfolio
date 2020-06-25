@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200;300;400;500;600&display=swap");
 
 .wrapper {
-  background: #1e1e1e;
+  background: #242424;
   color: white;
   height: 100vh;
   font-family: "Inconsolata", monospace;
@@ -48,29 +48,46 @@ $colors: (
 }
 
 .button {
-  background: none;
-  border: 1px solid;
-  font: inherit;
+  //   background: none;
+  //   border: 1px solid;
+  //   font: inherit;
+  //   line-height: 1;
+  //   margin: 2em;
+  //   padding: 0.6em 1.7em;
+  //   color: var(--color);
+  //   transition: 0.25s;
+  //   border-radius: 10px;
+  font-size: 12px;
+
   line-height: 1;
   margin: 2em;
   padding: 0.6em 1.7em;
-  color: var(--color);
-  transition: 0.25s;
-  border-radius: 10px;
-  font-size: 12px;
-  margin-top: 138%;
+  border-radius: 23px;
+  background: #262626;
+  box-shadow: 5px 5px 10px #1d1d1d, -5px -5px 10px #303030;
+  margin-top: 130%;
+  border: none;
+  color: white;
 
   &:hover,
   &:focus {
-    border-color: var(--hover);
-    color: #fff;
-    cursor: pointer;
+    // border-color: var(--hover);
+    // color: #fff;
+    // cursor: pointer;
     outline: none;
+    border-radius: 23px;
+    background: #262626;
+    box-shadow: inset 5px 5px 10px #1d1d1d, inset -5px -5px 10px #303030;
+    cursor: pointer;
   }
 }
 
 .button:hover,
 .button:focus {
-  box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
-  transform: translateY(-0.25em);
+  //   box-shadow: 0 0.5em 0.5em -0.4em var(--hover);
+  //   transform: translateY(-0.25em);
+  border-radius: 23px;
+  background: #262626;
+  box-shadow: inset 5px 5px 10px #1d1d1d, inset -5px -5px 10px #303030;
+  cursor: pointer;
 }
